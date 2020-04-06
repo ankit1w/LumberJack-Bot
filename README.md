@@ -6,7 +6,7 @@ LumberJack is a game available on the popular messaging platform, Telegram. The 
 
 There are a number of other tricks that involve hacking the page source of the game, but they stop working very frequently. This method has nothing to do with how the developers design the game, hence it's pretty reliable.
 ## How?
-This script computes the position of branches on either side of the tree by determining the color at specific pixels, and stimulates the required keypresses.
+This program computes the position of branches on either side of the tree by determining the color at specific pixels, and stimulates the required keypresses.
 
 <p align="center">
   <img width="400" src="https://raw.githubusercontent.com/ankit1w/LumberJack-Bot/assets/automated-gameplay.gif">
@@ -16,7 +16,7 @@ This script computes the position of branches on either side of the tree by dete
 </p>
 
 ## Variables
- - **branch_color :**  Color of the pixel use to determine presence of a branch, when a branch is present.
+ - **branch_color :**  Color of the pixel used to determine presence of a branch, when a branch is present.
  - **ref_branch_x :**  X-coordinate of the branches at the left side of the tree.
  - **branch_heights :** Y-coordinates of branches, ordered from the bottom of the tree to the top. The number of visible branches can vary depending on the size of your screen.
  - **batch_sleep :** Time in seconds before going to the next batch of branches.  
