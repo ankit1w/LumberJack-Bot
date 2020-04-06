@@ -32,7 +32,7 @@ This code snippet will continuously display the current position of the cursor. 
     while True:
     	print(pyautogui.position(), ' ' * 10, end='\r')
   ### Which part of the branch should I choose to determine its presence?
-  You can choose any pixel that changes color depending on whether or not a branch is present. The current script uses the color and coordinate as shown in the image below.
+  You can choose any pixel that changes color depending on whether or not a branch is present. The current script uses the color and coordinates as shown in the image below.
 <p align="center">
   <img width="350" src="https://raw.githubusercontent.com/ankit1w/LumberJack-Bot/assets/color_data.jpg">
 </p> 
