@@ -4,7 +4,11 @@
 LumberJack is a game available on the popular messaging platform, Telegram. The main objective of the game is pretty simple : 
 *Chop wood as fast as you can, but watch out for those branches!*
 
-There are a number of other tricks that involve hacking the page source of the game, but they stop working very frequently. This method has nothing to do with how the developers design the game, hence it's pretty reliable.
+The game is avaliable here : https://tbot.xyz/lumber
+
+Although to register high scores, it should be opened from Telegram desktop.
+
+*There are a number of other tricks that involve hacking the page source of the game, but they stop working very frequently. This method has nothing to do with how the developers design the game, hence it's pretty reliable.*
 ## How?
 This program computes the position of branches on either side of the tree by determining the color at specific pixels, and stimulates the required keypresses.
 
