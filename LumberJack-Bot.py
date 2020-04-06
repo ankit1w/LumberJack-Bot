@@ -28,10 +28,10 @@ def start():
 
 if __name__ == '__main__':
 	ref_branch_x = 1030
-	# X coordinate of branches on the left side of the tree.
+	# X-coordinate of branches on the left side of the tree.
 
 	branch_heights = (570, 445, 320, 195, 70)
-	# Y coordinates of the branches on the left side of the tree, ordered from bottom to top.
+	# Y-coordinates of the branches ordered from bottom to top.
 
 	batch_sleep = 0.07
 	# Time in seconds before going to the next "batch" of branches.
