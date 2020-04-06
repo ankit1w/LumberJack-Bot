@@ -22,7 +22,7 @@ This program computes the position of branches on either side of the tree by det
  - **batch_sleep :** Time in seconds before going to the next batch of branches.  
 - **double_press_interval :** Time in seconds between two presses of a the same key.
 
-> The **branch_color**, **ref_branch_x** and **branch_heights** variables need to be set up just once. The remaining two variables however depend on your browser's rendering speed, and similar factors. Start from slow and increase the speed (decrease the intervals).
+> The **branch_color**, **ref_branch_x** and **branch_heights** variables need to be set up just once. The remaining two variables however depend on your browser's rendering speed, and similar factors. Start slow and increase the speed (decrease the intervals).
 
 ### How to determine coordinates of branches?
 This code snippet will continuously display the current position of the cursor. Update the coordinates in the main script based on the values acquired from this snippet.
