@@ -20,13 +20,16 @@ def start():
 	while True:
 		time.sleep(batch_sleep)
 		for i in get_pixel_colour():
-			if i[2] == 56:
+			if i == branch_color:
 				pyautogui.press('left', presses=2, interval=double_press_interval)
 			else:
 				pyautogui.press('right', presses=2, interval=double_press_interval)
 
 
 if __name__ == '__main__':
+	branch_color = (162, 116, 56)
+	# Color of the pixel use to determine presence of a branch, when a branch is present.
+
 	ref_branch_x = 1030
 	# X-coordinate of branches on the left side of the tree.
 
