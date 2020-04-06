@@ -28,7 +28,7 @@ def start():
 
 if __name__ == '__main__':
 	branch_color = (162, 116, 56)
-	# Color of the pixel use to determine presence of a branch, when a branch is present.
+	# Color of the pixel used to determine presence of a branch, when a branch is present.
 
 	ref_branch_x = 1030
 	# X-coordinate of branches on the left side of the tree.
