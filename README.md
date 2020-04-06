@@ -12,6 +12,9 @@ This script computes the position of branches on either side of the tree by dete
 <p align="center">
   <img width="400" src="https://raw.githubusercontent.com/ankit1w/LumberJack-Bot/assets/automated-gameplay.gif">
 </p> 
+<p align="center">
+  Automated Gameplay
+</p>
 
 ## Variables
  - **ref_branch_x :**  X-coordinate of the branches at the left side of the tree.
