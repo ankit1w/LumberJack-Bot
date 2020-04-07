@@ -21,7 +21,7 @@ This program computes the position of branches on either side of the tree by det
 
 ## Variables
  - **branch_color :**  Color of the pixel used to determine presence of a branch, when a branch is present.
- - **ref_branch_x :**  X-coordinate of the branches at the left side of the tree.
+ - **ref_branch_x :**  X-coordinate of the branches at the right side of the tree.
  - **branch_heights :** Y-coordinates of branches, ordered from the bottom of the tree to the top. The number of visible branches can vary depending on the size of your screen.
  - **batch_sleep :** Time in seconds before going to the next batch of branches.  
 - **double_press_interval :** Time in seconds between two presses of a the same key.
