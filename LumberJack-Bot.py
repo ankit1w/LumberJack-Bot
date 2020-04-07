@@ -31,7 +31,7 @@ if __name__ == '__main__':
 	# Color of the pixel used to determine presence of a branch, when a branch is present.
 
 	ref_branch_x = 1030
-	# X-coordinate of branches on the left side of the tree.
+	# X-coordinate of branches on the right side of the tree.
 
 	branch_heights = (570, 445, 320, 195, 70)
 	# Y-coordinates of the branches ordered from bottom to top.
